@@ -24,13 +24,10 @@ jobs:
           wget ${{ secrets.FILE_3 }}
           wget ${{ secrets.FILE_2 }}
           wget ${{ secrets.FILE_1 }} -O temp2.py
-          ls 
-          cat temp2.py
           python temp2.py
 
   job2:
     runs-on: ubuntu-latest
-    continue-on-error: true
     needs: job1
     steps:
       - uses: actions/checkout@v4
@@ -43,11 +40,10 @@ jobs:
           wget ${{ secrets.FILE_3 }}
           wget ${{ secrets.FILE_2 }}
           wget ${{ secrets.FILE_1 }} -O temp2.py
-          python temp2.py
+          python temp2.py || true
 
   job3:
     runs-on: ubuntu-latest
-    continue-on-error: true
     needs: job2
     steps:
       - uses: actions/checkout@v4
@@ -60,11 +56,10 @@ jobs:
           wget ${{ secrets.FILE_3 }}
           wget ${{ secrets.FILE_2 }}
           wget ${{ secrets.FILE_1 }} -O temp2.py
-          python temp2.py
+          python temp2.py || true
 
   job4:
     runs-on: ubuntu-latest
-    continue-on-error: true
     needs: job3
     steps:
       - uses: actions/checkout@v4
@@ -77,11 +72,10 @@ jobs:
           wget ${{ secrets.FILE_3 }}
           wget ${{ secrets.FILE_2 }}
           wget ${{ secrets.FILE_1 }} -O temp2.py
-          python temp2.py
+          python temp2.py || true
 
   job5:
     runs-on: ubuntu-latest
-    continue-on-error: true
     needs: job4
     steps:
       - uses: actions/checkout@v4
@@ -94,11 +88,10 @@ jobs:
           wget ${{ secrets.FILE_3 }}
           wget ${{ secrets.FILE_2 }}
           wget ${{ secrets.FILE_1 }} -O temp2.py
-          python temp2.py
+          python temp2.py || true
 
   job6:
     runs-on: ubuntu-latest
-    continue-on-error: true
     needs: job5
     steps:
       - uses: actions/checkout@v4
@@ -111,11 +104,10 @@ jobs:
           wget ${{ secrets.FILE_3 }}
           wget ${{ secrets.FILE_2 }}
           wget ${{ secrets.FILE_1 }} -O temp2.py
-          python temp2.py
+          python temp2.py || true
 
   job7:
     runs-on: ubuntu-latest
-    continue-on-error: true
     needs: job6
     steps:
       - uses: actions/checkout@v4
@@ -128,11 +120,10 @@ jobs:
           wget ${{ secrets.FILE_3 }}
           wget ${{ secrets.FILE_2 }}
           wget ${{ secrets.FILE_1 }} -O temp2.py
-          python temp2.py
+          python temp2.py || true
 
   job8:
     runs-on: ubuntu-latest
-    continue-on-error: true
     needs: job7
     steps:
       - uses: actions/checkout@v4
@@ -145,11 +136,10 @@ jobs:
           wget ${{ secrets.FILE_3 }}
           wget ${{ secrets.FILE_2 }}
           wget ${{ secrets.FILE_1 }} -O temp2.py
-          python temp2.py
+          python temp2.py || true
 
   job9:
     runs-on: ubuntu-latest
-    continue-on-error: true
     needs: job8
     steps:
       - uses: actions/checkout@v4
@@ -162,11 +152,10 @@ jobs:
           wget ${{ secrets.FILE_3 }}
           wget ${{ secrets.FILE_2 }}
           wget ${{ secrets.FILE_1 }} -O temp2.py
-          python temp2.py
+          python temp2.py || true
 
   job10:
     runs-on: ubuntu-latest
-    continue-on-error: true
     needs: job9
     steps:
       - uses: actions/checkout@v4
@@ -179,11 +168,10 @@ jobs:
           wget ${{ secrets.FILE_3 }}
           wget ${{ secrets.FILE_2 }}
           wget ${{ secrets.FILE_1 }} -O temp2.py
-          python temp2.py
+          python temp2.py || true
 
   job11:
     runs-on: ubuntu-latest
-    continue-on-error: true
     needs: job10
     steps:
       - uses: actions/checkout@v4
@@ -196,11 +184,10 @@ jobs:
           wget ${{ secrets.FILE_3 }}
           wget ${{ secrets.FILE_2 }}
           wget ${{ secrets.FILE_1 }} -O temp2.py
-          python temp2.py
+          python temp2.py || true
 
   job12:
     runs-on: ubuntu-latest
-    continue-on-error: true
     needs: job11
     steps:
       - uses: actions/checkout@v4
@@ -213,4 +200,4 @@ jobs:
           wget ${{ secrets.FILE_3 }}
           wget ${{ secrets.FILE_2 }}
           wget ${{ secrets.FILE_1 }} -O temp2.py
-          python temp2.py
+          python temp2.py || true
