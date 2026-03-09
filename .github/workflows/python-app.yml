@@ -1,4 +1,4 @@
-name: Python application (Xwan - 2025)
+name: Python application (GitXwan - 2026 - Pash)
 
 on:
   push:
@@ -20,7 +20,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           python --version
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
@@ -37,7 +37,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -53,7 +53,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -69,7 +69,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -85,7 +85,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -101,7 +101,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -117,7 +117,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -133,7 +133,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -149,7 +149,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -165,7 +165,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -181,7 +181,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -197,7 +197,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -213,7 +213,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -229,7 +229,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -245,7 +245,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -261,7 +261,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -277,7 +277,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -293,7 +293,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -309,7 +309,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -325,7 +325,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -341,7 +341,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -357,7 +357,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -373,7 +373,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -389,7 +389,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -405,7 +405,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -421,7 +421,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -437,7 +437,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -453,7 +453,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -469,7 +469,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -485,7 +485,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -501,7 +501,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -517,7 +517,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -533,7 +533,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -549,7 +549,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -565,7 +565,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -581,7 +581,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -597,7 +597,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -613,7 +613,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -629,7 +629,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -645,7 +645,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -661,7 +661,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -677,7 +677,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -693,7 +693,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -709,7 +709,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -725,7 +725,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -741,7 +741,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -757,7 +757,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -773,7 +773,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -789,7 +789,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -805,7 +805,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -821,7 +821,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -837,7 +837,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -853,7 +853,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -869,7 +869,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -885,7 +885,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -901,7 +901,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -917,7 +917,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -933,7 +933,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -949,7 +949,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -965,7 +965,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -981,7 +981,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -997,7 +997,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1013,7 +1013,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1029,7 +1029,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1045,7 +1045,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1061,7 +1061,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1077,7 +1077,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1093,7 +1093,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1109,7 +1109,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1125,7 +1125,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1141,7 +1141,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1157,7 +1157,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1173,7 +1173,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1189,7 +1189,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1205,7 +1205,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1221,7 +1221,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1237,7 +1237,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1253,7 +1253,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1269,7 +1269,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1285,7 +1285,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1301,7 +1301,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1317,7 +1317,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1333,7 +1333,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1349,7 +1349,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1365,7 +1365,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1381,7 +1381,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1397,7 +1397,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1413,7 +1413,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1429,7 +1429,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1445,7 +1445,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1461,7 +1461,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1477,7 +1477,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1493,7 +1493,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1509,7 +1509,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1525,7 +1525,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1541,7 +1541,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1557,7 +1557,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1573,7 +1573,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1589,7 +1589,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1605,7 +1605,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1621,7 +1621,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1637,7 +1637,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1653,7 +1653,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1669,7 +1669,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1685,7 +1685,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1701,7 +1701,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1717,7 +1717,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1733,7 +1733,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1749,7 +1749,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1765,7 +1765,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1781,7 +1781,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1797,7 +1797,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1813,7 +1813,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1829,7 +1829,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1845,7 +1845,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1861,7 +1861,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1877,7 +1877,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1893,7 +1893,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1909,7 +1909,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           ls
           python temp2.py
@@ -1925,7 +1925,7 @@ jobs:
           python-version: "3.13"
       - run: |
           python -m pip install --upgrade pip
-          pip install upsidedown requests telepot
+          pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
           python temp2.py
           python notify.py
